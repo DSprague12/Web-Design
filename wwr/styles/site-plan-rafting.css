@@ -3,30 +3,32 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a & */
 
 /* TODO: Week02 - if you choose to import fonts, change this line to match your import. */
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   /* TODO: Week02 - change the values below to your colors from your palette */
-  --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #a42212;
+  --primary-color: #008c41;
+  --secondary-color: #d4ac0d;
+  --accent1-color: #8cdc89;
   --accent2-color: white;
 
   /* TODO: Week02 - change the values below to your chosen font(s). */
   /* TODO: Week02 - make sure you provide more than one font option for each to handle fallback */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Delius";
+  --paragraph-font: "Tuffy", Arial, sans-serif;
+
 
   /* TODO: Week02 - these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396e94; /* headlines on a white background */
+  --headline-color-on-white: #008c41; /* headlines on a white background */
   --headline-color-on-color: white; /* headlines on a colored background */
-  --paragraph-color-on-white: #396e94; /* paragraph text on a white background */
+  --paragraph-color-on-white: #008c41; /* paragraph text on a white background */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: #396e94;
-  --nav-link-color: #396e94;
-  --nav-background-color: #d4ac0d;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396e94;
+  --paragraph-background-color: #008c41;
+  --nav-link-color: white;
+  --nav-background-color: #008c41;
+  --nav-hover-link-color: #d4ac0d;
+  --nav-hover-background-color: #008c41;
   /* TODO: Week02 - test out your colors using by viewing your html and interacting with it. Make sure the contrast is enough that things can be easily read*/
 }
 
