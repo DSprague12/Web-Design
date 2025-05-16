@@ -6,16 +6,16 @@
 }
 body{
     text-align: center;
-    background-color: #2596be;
+    background-color: #5ca0d7;
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 25vw;
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Cormorant Garamond", serif;
 }
 img{
-    width: 25vw;
+    width: 10vw;
 }
 #listy{
     text-align: left;
@@ -23,7 +23,8 @@ img{
     font-weight: bold;
 }
 #quote{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Darker Grotesque", sans-serif;
+
 }
 footer{
     color:black;
