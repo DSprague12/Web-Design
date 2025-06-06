@@ -1,0 +1,49 @@
+@media only screen and (min-width: 900px){
+    #container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:20px
+    }
+}
+@media only screen and (max-width: 900px){
+    #container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:20px;
+    }
+}
+.square{
+    background-color: white;
+    width:100%;
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+}
+.nav{
+    color:white;
+    margin:0;
+    display: inline;
+}
+img{
+    display: block;
+    width:30%;
+    margin:10px auto;
+}
+h1{
+
+}
+h4{
+
+}
+body{
+    background-color: lightblue;
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: darkblue;
+    margin:0;
+    padding:0; 
+    position: fixed;
+    width:100%;
+}
