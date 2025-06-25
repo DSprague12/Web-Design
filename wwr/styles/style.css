@@ -205,6 +205,9 @@ a:hover{
     opacity: .6;
     transform: scale(1.1);
 }
+#qr-code{
+    width:30%;
+}
 h1{
     font-family: 'Delius';
     color:#008c41;
@@ -292,7 +295,44 @@ a{
     height: 100%;
 }
 
-
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+#container{
+    grid-template-columns: 1fr 1fr 1fr;
+    display:grid;
+    width:100%;
+}
+form{
+    background-color: #8cdc89;
+    grid-column: 2/3;
+    text-align: center;
+    border:black solid 3px;
+    border-radius: 10px;
+}
+button{
+    background-color: #008c41;
+    border: black solid 2px;
+    border-radius: 3px;
+}
+input{
+    border:black solid 2px;
+    border-radius: 3px;
+}
+textarea{
+    border:black solid 2px;
+    border-radius: 3px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
