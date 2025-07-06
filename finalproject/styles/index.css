@@ -21,7 +21,10 @@ body{
     color:var(--accent1);
 }
 a{
-    font-family: var(--heading-font);
+    font: normal normal 25px/25px var(--heading-font);
+}
+nav a:hover{
+    background-color: var(--accent2);
 }
 @media only screen and (min-width: 800px) {
     main{
@@ -78,6 +81,7 @@ a{
     nav a{
         text-decoration: none;
         color: var(--accent1);
+        padding: 45px 0;
     }
     footer{
         background-color: var(--primary);
@@ -123,8 +127,9 @@ a{
 
     #logo{
         width:100%;
-        scale:1 1;
-        margin:10px;
+        border:none;
+        border-radius: 0%;
+        margin: 10px;
     }
 }
 
@@ -165,7 +170,7 @@ a{
     }
     ul{
         padding:25px 0;
-        margin:0;
+        margin:0 25px;
     }
     img{
         padding:0;
@@ -175,15 +180,17 @@ a{
     nav{
         text-align: center;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        height:20em;
         align-items: center;
         display: grid;
     }
     nav a{
         text-decoration: none;
         font-size:40px;
-        margin:10px;
-        margin-left: 20px;
-        border: solid var(--accent1) 3px;
+        width:300px;
+        margin:auto;
+        padding:20px 0;
+        border: solid var(--accent1) 2px;
         border-radius: 15px;
         color: var(--accent1);
     }
@@ -198,8 +205,6 @@ a{
     }
     .coloredSection{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 100%;
         background-color: var(--secondary);
     }
     .coloredSection h1{
@@ -210,14 +215,17 @@ a{
         width:100%;
     }
     .coloredSection p:nth-of-type(1){
-        margin-left:25px;
-        grid-row:3/4;
-    }
-    .coloredSection p:nth-of-type(2){
-        margin-left:25px;
+        margin:25px;
+        grid-column: 1/2;
         grid-row:4/5;
     }
+    .coloredSection p:nth-of-type(2){
+        margin:25px;
+        grid-column: 1/2;
+        grid-row:5/6;
+    }
     .coloredSection img{
+        box-sizing: border-box;
         grid-row:3/4;
         grid-column: 1/2;
         width:100%;
