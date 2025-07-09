@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link type="text/css" rel="stylesheet" href="styles/index.css">
+    <link type="text/css" rel="stylesheet" href="styles/pix.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -34,21 +35,33 @@
         </div>
 
         <div id="collage">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
-            <img src="https://placehold.co/100" alt="cute cat">
+            <div class = "slides">
+                <img src="images/gallery/crazyCat.jpg" alt="cute cat">
+            </div>
+            <div class = "slides">
+                <img src="images/gallery/layCat.jpg" alt="cute cat">
+            </div>
+            <div class = "slides">
+                <img src="images/gallery/profCat.jpg" alt="cute cat">
+            </div>
+            <div class = "slides">
+                <img src="images/gallery/santaCat.jpg" alt="cute cat">
+            </div>
+            <div class = "slides">
+                <img src="images/gallery/sisterCat.jpg" alt="cute cat">
+            </div>
+            <div class = "slides">
+                <img src="images/gallery/snoozeCat.jpg" alt="cute cat">
+            </div>
+            
+            <a id="previous" onclick="modifySlide(-1)">Back</a>
+            <a id="next" onclick="modifySlide(1)">Forward</a>
+
+            <div id="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
         </div>
 
         <div class = "coloredSection">
