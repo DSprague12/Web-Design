@@ -143,6 +143,7 @@ nav a:hover{
     footer{
         background-color: var(--primary);
         padding-top:50px;
+        margin:0;
     }
 
 

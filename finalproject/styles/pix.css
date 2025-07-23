@@ -23,8 +23,7 @@
     width:auto;
 }
 .dot{
-    background-color: var(--primary);
-    border-radius: 50%;
+    border:none;
     margin:0.5vw;
     width:10px;
     height: 10px;
@@ -32,7 +31,6 @@
 .dot.active{
     width: 20px;
     height: 20px;
-    flex-shrink: 0;
 }
 .fade {
   animation-name: fade;
